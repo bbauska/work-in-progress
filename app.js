@@ -12,7 +12,7 @@ const newKyahTime = new Date(`November 04 ${currentYear} 00:00:00`);
 // Update countdown time
 function updateCountdown() {
 	const currentTime = new Date();
-	const diff = newYearTime - currentTime;
+	const diff = newKyahTime - currentTime;
 
 	const d = Math.floor(diff / 1000 / 60 / 60 / 24);
 	const h = Math.floor(diff / 1000 / 60 / 60) % 24;
